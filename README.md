@@ -1,6 +1,4 @@
-I can't generate downloadable files directly, but I can provide you with the complete README.md content that you can copy and save as a file. Here's the raw markdown text:
 
-```markdown
 # Raw-Socket Network Scanner
 
 A Rust-based network scanner that constructs and sends raw Ethernet/IP/UDP/TCP packets by manually building L2/L3/L4 headers. This educational tool demonstrates low-level packet construction and network protocol implementation.
