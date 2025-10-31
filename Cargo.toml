@@ -1,0 +1,17 @@
+[package]
+name = "raw_scanner"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <you@example.com>"]
+description = "Raw-socket network scanner (final fixed version)"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+pcap-file = "2.0"
+socket2 = "0.5"
+libc = "0.2"
+log = "0.4"
+env_logger = "0.11"
